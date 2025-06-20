@@ -1,15 +1,5 @@
 [
 	{
-		"bonus": "Get 10 GB each",
-		"code": "RC2FD5",
-		"color": "#00C600",
-		"description": "Store, share, and discover your memories with end-to-end encryption",
-		"homepage": "https://ente.io",
-		"icon": "heroicons:photo",
-		"name": "Ente Photos",
-		"url": "https://ente.io/"
-	},
-	{
 		"aliases": [
 			"cloud",
 			"do"
@@ -22,6 +12,16 @@
 		"icon": "heroicons-outline:server",
 		"name": "DigitalOcean",
 		"url": "https://m.do.co/c/b2725e9112ba"
+	},
+	{
+		"bonus": "Get 10 GB each",
+		"code": "RC2FD5",
+		"color": "#00C600",
+		"description": "Store, share, and discover your memories with end-to-end encryption",
+		"homepage": "https://ente.io",
+		"icon": "heroicons:photo",
+		"name": "Ente Photos",
+		"url": "https://ente.io/"
 	},
 	{
 		"aliases": [
