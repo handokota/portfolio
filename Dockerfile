@@ -18,6 +18,7 @@ FROM node:22-alpine
 
 WORKDIR /app
 
+COPY --from=builder /app/src ./src
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
