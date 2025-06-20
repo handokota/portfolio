@@ -1,0 +1,13 @@
+services:
+  app:
+    container_name: portfolio
+    build:
+      context: .
+      args:
+        - NEXT_PUBLIC_DISCORD_ID=${NEXT_PUBLIC_DISCORD_ID}
+    image: portfolio-app
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    env_file:
+      - ./.env

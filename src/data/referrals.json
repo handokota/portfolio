@@ -1,0 +1,49 @@
+[
+	{
+		"bonus": "Get 10 GB each",
+		"code": "RC2FD5",
+		"color": "#00C600",
+		"description": "Store, share, and discover your memories with end-to-end encryption",
+		"homepage": "https://ente.io",
+		"icon": "heroicons:photo",
+		"name": "Ente Photos",
+		"url": "https://ente.io/"
+	},
+	{
+		"aliases": [
+			"cloud",
+			"do"
+		],
+		"bonus": "Free $200 credit over 60 days",
+		"code": "b2725e9112ba",
+		"color": "#0069ff",
+		"description": "Cloud platform to deploy, manage & scale applications",
+		"homepage": "https://www.digitalocean.com/",
+		"icon": "heroicons-outline:server",
+		"name": "DigitalOcean",
+		"url": "https://m.do.co/c/b2725e9112ba"
+	},
+	{
+		"aliases": [
+			"mail",
+			"email"
+		],
+		"code": "handokota",
+		"color": "#ea319f",
+		"description": "Open source anonymous email service",
+		"homepage": "https://simplelogin.io/",
+		"icon": "heroicons-outline:mail",
+		"name": "SimpleLogin",
+		"url": "https://simplelogin.io?slref=handokota"
+	},
+	{
+		"bonus": "Free $10 credit over 30 days",
+		"code": "8580626",
+		"color": "#007bfc",
+		"description": "Deploy public cloud, storage & single tenant bare metal services",
+		"homepage": "https://vultr.com",
+		"icon": "heroicons-outline:server",
+		"name": "Vultr",
+		"url": "https://www.vultr.com/?ref=8580626"
+	}
+]
