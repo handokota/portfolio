@@ -25,6 +25,20 @@
 	},
 	{
 		"aliases": [
+			"cloud",
+			"onidel"
+		],
+		"bonus": "Get 25% credit bonus",
+		"code": "1568793",
+		"color": "#40c6ff",
+		"description": "Deploy premium Cloud VPS solutions across multiple geo-distributed locations",
+		"homepage": "https://onidel.com/",
+		"icon": "heroicons-outline:server",
+		"name": "Onidel",
+		"url": "https://onidel.com/?referral=1568793"
+	},
+	{
+		"aliases": [
 			"mail",
 			"email"
 		],
