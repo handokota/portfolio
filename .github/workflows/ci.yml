@@ -23,6 +23,7 @@ jobs:
           script: |
             cd ${{ secrets.PROD_PROJECT_PATH }}
             git fetch origin main
+            git reset --hard origin/main
             docker compose down
             docker builder prune -f
             docker compose up --build -d
