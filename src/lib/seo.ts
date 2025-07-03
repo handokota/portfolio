@@ -32,8 +32,8 @@ export function useSeoProps(
 		},
 		twitter: {
 			cardType: 'summary_large_image',
-			handle: '@nurodev',
-			site: '@nurodev',
+			handle: '@handokota',
+			site: '@handokota',
 		},
 		...props,
 	};
