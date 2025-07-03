@@ -18,7 +18,7 @@ export function useSeoProps(
 		openGraph: {
 			title,
 			description,
-			site_name: 'handokota',
+			site_name: 'Handoko Tejo Atmoko',
 			url: `https://handokota.com/${router.asPath}`,
 			type: 'website',
 			images: [
