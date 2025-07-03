@@ -39,14 +39,21 @@ const ACTIONS: Array<NavigationItem> = [
 
 export default function HomePage(): JSX.Element {
 	const today = new Date();
-	const birthday = new Date('1997-08-09');
+	const birthday = new Date('2002-04-19');
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I ensure high availability, security, and efficiency across Linux, cloud, and virtualized environments`;
+	const metaDescription = `I ensure high availability, security, and efficiency across Linux, cloud, and virtualized environments.`;
+
+	const description = `I ensure high availability, security, and efficiency across Linux, cloud, and virtualized environments.`;
 
 	return (
-		<Layout.Default>
+		<Layout.Default
+			seo={{
+				title: 'Handoko Tejo Atmoko',
+				description: metaDescription,
+            }}>
+
 			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<div className="min-h-screen flex items-center justify-center py-12">
 				<div className="max-w-md sm:max-w-lg md:sm:max-w-3xl lg:sm:max-w-6xl w-full space-y-8 text-center">
