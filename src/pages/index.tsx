@@ -43,7 +43,7 @@ export default function HomePage(): JSX.Element {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const metaDescription = `I ensure high availability, security, and efficiency across Linux, cloud, and virtualized environments.`;
+	const metaDescription = `I'm Handoko, a system administrator. I ensure high availability, security, and efficiency across Linux, cloud, and virtualized environments.`;
 
 	const description = `I ensure high availability, security, and efficiency across Linux, cloud, and virtualized environments.`;
 
