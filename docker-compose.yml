@@ -7,7 +7,18 @@ services:
         - NEXT_PUBLIC_DISCORD_ID=${NEXT_PUBLIC_DISCORD_ID}
     image: portfolio-app
     restart: unless-stopped
-    ports:
-      - 3000:3000
     env_file:
       - ./.env
+    networks:
+      - caddy
+    labels:
+      caddy: "handokota.com, www.handokota.com"
+      caddy.@www.host: "www.handokota.com"
+      caddy.redir: "@www https://handokota.com{uri}"
+      caddy.reverse_proxy: "{{upstreams 3000}}"
+
+      com.centurylinklabs.watchtower.enable: "false"
+
+networks:
+  caddy:
+    external: true
