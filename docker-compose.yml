@@ -18,8 +18,6 @@ services:
       caddy.reverse_proxy: "{{upstreams 3000}}"
       # Strict-Transport-Security (HSTS)
       caddy.header.Strict-Transport-Security: "max-age=31536000; includeSubDomains; preload"
-      # X-XSS-Protection
-      caddy.header.X-Xss-Protection: "1; mode=block"
       # X-Content-Type-Options
       caddy.header.X-Content-Type-Options: "nosniff"
       # X-Frame-Options
