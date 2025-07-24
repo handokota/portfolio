@@ -1,5 +1,3 @@
-import splitbee from '@splitbee/web';
-
 import type { GetServerSideProps } from 'next';
 
 import type { Referrals } from '~/types';
@@ -29,12 +27,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
 			return referral.aliases.find((alias) => alias.toLowerCase() === paramName);
 
 		return undefined;
-	});
-
-	splitbee.track(result.name.toLowerCase(), {
-		code: result.code,
-		type: 'referral',
-		url: result.url,
 	});
 
 	return {
