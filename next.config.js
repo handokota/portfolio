@@ -3,12 +3,12 @@ const { withAxiom } = require('next-axiom');
 
 const ContentSecurityPolicy = `
   child-src *.google.com;
-  connect-src 'self' static.cloudflareinsights.com;
+  connect-src *;
   default-src 'self';
   font-src 'self';
   img-src * blob: data:;
   media-src 'none';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' static.cloudflareinsights.com;
+  script-src 'self' 'unsafe-eval' 'unsafe-inline';
   style-src 'self' 'unsafe-inline' *.googleapis.com;
   worker-src 'self' 'unsafe-inline' blob:;
 `;
